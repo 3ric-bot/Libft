@@ -6,7 +6,7 @@
 /*   By: eoehlers <eoehlers@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:04:21 by eoehlers          #+#    #+#             */
-/*   Updated: 2024/10/23 12:47:54 by eoehlers         ###   ########.fr       */
+/*   Updated: 2024/10/23 13:48:21 by eoehlers         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,8 @@ int main(void)
 
     // Test case 4
     char *result4 = ft_strrchr(str4, c4);
-    printf("result4 = (%s, '\\0') = %s\n", str4, result4 ? "Pointer to end" : "NULL");
+    printf("result4 = (%s, '\\0') = %s\n", str4, result4 ? "Pointer to end" :
+	"NULL");
 
     // Test case 5: Testing for character at the beginning
     char *result5 = ft_strrchr(str1, 'H');

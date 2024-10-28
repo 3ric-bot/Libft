@@ -6,7 +6,7 @@
 /*   By: eoehlers <eoehlers@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:04:21 by eoehlers          #+#    #+#             */
-/*   Updated: 2024/10/23 13:03:04 by eoehlers         ###   ########.fr       */
+/*   Updated: 2024/10/23 13:44:56 by eoehlers         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_tolower(int c)
 	return (c);
 }
 
-/**/
+/*
 #include <stdio.h>
 #include "libft.h"
 
@@ -41,7 +41,7 @@ int main(void)
     return 0;
 }
 
-/**/
+*/
 /*
 	gcc -Wall -Wextra -Werror -o file ft_tolower.c
 */

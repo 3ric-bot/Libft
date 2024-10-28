@@ -6,7 +6,7 @@
 /*   By: eoehlers <eoehlers@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:04:21 by eoehlers          #+#    #+#             */
-/*   Updated: 2024/10/23 12:14:53 by eoehlers         ###   ########.fr       */
+/*   Updated: 2024/10/23 13:50:30 by eoehlers         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ int main() {
 
     return 0;
 }
-
+*/
 /*
 	gcc -Wall -Wextra -Werror -o file ft_strmapi.c ft_strlen.c
 */

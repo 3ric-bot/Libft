@@ -6,18 +6,21 @@
 /*   By: eoehlers <eoehlers@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:04:21 by eoehlers          #+#    #+#             */
-/*   Updated: 2024/10/22 12:46:18 by eoehlers         ###   ########.fr       */
+/*   Updated: 2024/10/25 18:09:23 by eoehlers         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdint.h>
 
 void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;
 
+	if (size != 0 && count > SIZE_MAX / size)
+		return (NULL);
 	ptr = malloc(count * size);
-	if (!ptr)
+	if (ptr == NULL)
 		return (NULL);
 	ft_bzero(ptr, count * size);
 	return (ptr);
