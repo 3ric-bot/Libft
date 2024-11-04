@@ -19,7 +19,7 @@ Finished: 02-NOV-2024. Grade: 125/100.
 ## Included Functions
 
 ### Mandatory Functions
-The mandatory functions of libft are either functions from the standard C library or other useful functions. They are mostly useful for character, string and memory manipulation. These 34 mandatory functions must be done correctly to get a 100% grade.
+The mandatory functions of libft are either functions from the standard C library or other useful functions. They are mostly useful for character, string and memory manipulation. These 34 mandatory functions must be done correctly to get a 100% grade (and 43 if you include the bonus).
 
 Functions to check and manipulate characters:
 - ft_isalpha
